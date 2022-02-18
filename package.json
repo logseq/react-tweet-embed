@@ -1,5 +1,5 @@
 {
-  "name": "react-tweet-embed",
+  "name": "@logseq/react-tweet-embed",
   "version": "1.3.1",
   "description": "react component that takes tweet id in props and renders tweet embed, nothing more",
   "main": "dist/tweet-embed.js",
@@ -16,14 +16,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/capaj/react-tweet-embed.git"
+    "url": "git+https://github.com/logseq/react-tweet-embed.git"
   },
   "author": "capajj@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/capaj/react-tweet-embed/issues"
+    "url": "https://github.com/logseq/react-tweet-embed/issues"
   },
-  "homepage": "https://github.com/capaj/react-tweet-embed#readme",
+  "homepage": "https://github.com/logseq/react-tweet-embed#readme",
   "peerDependencies": {
     "react": ">=15"
   },

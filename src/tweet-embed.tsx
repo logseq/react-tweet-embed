@@ -73,7 +73,7 @@ class TweetEmbed extends React.Component<ITweetEmbedProps> {
 
     const twttr = window['twttr']
     if (!(twttr && twttr.ready)) {
-      addScript(`${protocol}//platform.twitter.com/widgets.js`, renderTweet)
+      addScript(`${this.props.protocol}//platform.twitter.com/widgets.js`, renderTweet)
     } else {
       renderTweet()
     }
